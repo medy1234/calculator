@@ -1,0 +1,58 @@
+Box Model Hack
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+/* body {
+
+}  */
+.phone{
+  width: 275px;
+  margin: 100px auto;
+  padding-top: 10px;
+  padding-bottom: 2px;
+  border-radius: 30px;
+  box-shadow: 3px 2px #5e6266,
+              8px 5px 3px #000,
+              -2px 5px 3px #e6e8eb,
+              -4px -2px 3px #333,
+              4px -2px  3px #ccc;
+}
+.active{
+  background-color: #e6e8eb;
+  color: #ed8936;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+/* header {
+
+} */
+
+/* footer {
+
+} */
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
